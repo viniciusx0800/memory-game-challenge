@@ -10,7 +10,7 @@ O aluno deverá explicar todo o projeto e suas tomadas de decisões.
 
 *O tema é livre e de escolha do aluno*
 
-![Visualização](./images/visualizacao.png)
+![Visualização](./images/apresentation.png)
 
 ---
 
