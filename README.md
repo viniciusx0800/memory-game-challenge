@@ -79,6 +79,8 @@ Durante a apresentação e análise do projeto, serão avaliados os seguintes po
 * [ ] ✅ Mensagem final de "Parabéns!"
 * [ ] ✅ Botão de **reiniciar jogo**
 * [ ] ✅ Animações com som (usando `Audio()`)
+* [ ] ✅ Música ambiente de fundo temática (usando `Audio()`)
+
 
 ---
 
