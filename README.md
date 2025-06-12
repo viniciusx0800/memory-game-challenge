@@ -1,4 +1,4 @@
-# 🧠 Projeto: Jogo da Memória com HTML, CSS e JavaScript
+# 🦉 Projeto: Jogo da Memória com HTML, CSS e JavaScript
 
 ## 📚 Descrição
 
