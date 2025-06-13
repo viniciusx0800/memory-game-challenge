@@ -1,5 +1,5 @@
     @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+    
     :root{
     --fonte1: verdana, Genava, tahoma, sans-serif;
     --fonte2: "passion One", cursive;
@@ -15,65 +15,77 @@
     }
 
     body{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.87)), 
+        url('assets/dragon-ball/super-say-jeans.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
         font-family: Arial, sans-serif;
         background-color: #f0f0f0;
-        color: #333;
+        color: #fd0000;
+        background-color: #0000009d;
 
     }
 
    
 
     .titulo-h1{
-        font-size: 48px;
         margin: 20px 0;
-        font-size: 4em;
-        color: #20f504;
-         padding: 10px 20px;
+        font-size: 5em;
+        color: #ff0000;
+        filter: drop-shadow(10px 15px 3.5px  #7dffcd8c) ;
+        padding: 10px 20px;
         text-align: center;
     }
 
-    #1{
-         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.87)), 
-        url('assets/images/card-default.png');
-    }
-    main{
-        /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.87)), 
-        url('assets/image.png'); */
-        padding: 20px;
-        background-color: #00000033;
-        height: 70vh;
-        width: 50%;
-        margin: 0 auto;
-    }
 
-
-
-    section{
-        padding: 20px;
-        margin: 20px;
-        border: 1px solid #20f504;
-        border-radius: 5px;
-        height: 75%;
-        
-    }
 
     .jogo-container{
-        display: flex;
-       
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-        background-color: #009999f5;
+        width: 50%;
+        padding: 10px 20px;
+        margin: 0 auto;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        border-radius: 30px 10px 25px 10px;
+        overflow: hidden;
     }
 
     .cartas{
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 10px;
-        border: 2px solid #20f504;
-        height: 200px;
-        width: 70px
+        grid-template-columns: 110px 110px 110px ;
+        grid-template-rows: 140px 150px ;
+        gap: 550px;
+        justify-content: center;
+        transition-duration: 0.4s;
+        transition-delay: 0s;
+        cursor: pointer;
+        
+    }
+
+    .carta:hover{
+        transform: scale(1.1);
+        transition-duration: 0.2s;
+        transition-delay: 0s;
+        filter: drop-shadow(10px 15px 3.5px  #0000008c) ;
+    }
+
+    .carta{
+        background-image:  url('assets/dragon-ball/gohan-carta.jpg');
+        opacity: 0.7; 
+        background-position: center;
+        background-size: cover;
+        height: 600px;
+        width: 400px;
+        border-radius: 50px;
+        padding: 20px;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 3em;
+        transition: transform 0.3s ease;
+       
     }
 
     footer{
