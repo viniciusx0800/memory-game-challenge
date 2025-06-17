@@ -30,9 +30,10 @@
     }
 
     .image {
-    width: 60%;
-    height: 100%;
-    object-fit: cover;
+      width: 60%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
     }
 
     #capa {
