@@ -155,4 +155,5 @@ const botaoTema = document.getElementById("tema-toggle");
 botaoTema.addEventListener("click", () => {
   document.body.classList.toggle("tema-escuro");
   document.body.classList.toggle("tema-claro");
+  document.querySelector(".wrapper").classList.toggle("tema-escuro");
 });

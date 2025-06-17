@@ -24,6 +24,11 @@
       color: #000000;
     }
 
+    .wrapper.tema-escuro {
+      background-color: #2c2c2c;
+      color: #ffffff;
+    }
+
     .image {
     width: 60%;
     height: 100%;
