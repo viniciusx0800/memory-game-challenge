@@ -100,7 +100,9 @@ const gerarMatriz = (valoresCartas, tamanho = 4) => {
             contagemVitorias++;
             if (contagemVitorias === valoresCartas.length / 2) {
               setTimeout(() => {
-                resultado.innerHTML = `<h2 class="subtitulo">Parabéns você Venceu 👏🥳 </h2><h4 class="subtitulo">Foram ${contagemMovimentos} Movimentos</h4>`;
+                var minsText = minutos > 0 ? ` ${minutos} minutos` : ``;
+                var segText = segundos > 0 ? ` ${segundos} segundos` : ``;
+                resultado.innerHTML = `<h2 class="subtitulo">Parabéns você Venceu 👏🥳 </h2><h4 class="subtitulo">Foram ${contagemMovimentos} Movimentos em${minsText}${segText}</h4>`;
                 pararJogo();
               }, 500);
             }
