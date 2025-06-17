@@ -184,6 +184,22 @@
       color: #000000;
      }
 
+     #bot{
+      margin-top: 1em;
+      padding: 0.5em 1.2em;
+      font-size: 1em;
+      font-weight: 600;
+      border: none;
+      border-radius: 0.4em;
+      cursor: pointer;
+      background-color: #fdfdfd;
+      color: #000000;
+     }
+
+     #bot-label{
+      color: red;
+     }
+
      #tema-toggle:hover {
       box-shadow: 1px 1px 4px 3px rgba(71, 141, 103, 0.521);
       color: #fffffff8;
